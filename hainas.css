@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{background: url('parallex.jpg') no-repeat;}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .product {
+    display: flex;
+    background-color: #ffffff4d;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  .product-image {max-width: 600px; /* Set the maximum width for the image */
+    height: auto;
+    display: block;
+    flex: 1;
+    
+  }
+  .product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .product-details {
+    flex: 1;
+    padding: 20px;
+  }
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .description {
+    margin-bottom: 20px;
+  }
+  .size-table {
+    margin-bottom: 20px;
+  }
+  .size-table td {
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .product-image:hover {
+    
+    border-radius: 25px; 
+    background-color: #ffffffb7;
+  }
+  .buy-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .buy-button:hover {
+    background-color: #ffffffb7;
+  }

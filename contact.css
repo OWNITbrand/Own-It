@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background: url('parallex.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.email-box a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.email-box a:hover
+ {
+    text-decoration: underline;
+}
+
+.contact-box {
+    background-color: #27272783;
+    border-radius: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.phone-box {
+    background-color: #27272782;
+    border-radius: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.email-box {
+
+    cursor:auto;
+    color: rgba(0, 0, 0, 0.836);
+    text-decoration:wavy;
+    font-family: Arial, sans-serif;
+    background-color: #27272782;
+    border-radius: 50px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
